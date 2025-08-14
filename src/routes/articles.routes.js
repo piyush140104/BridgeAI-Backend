@@ -1,9 +1,7 @@
 import express from "express";
 import axios from "axios";
-import dotenv from "dotenv";
 import OpenAI from "openai";
 
-dotenv.config();
 
 const router = express.Router();
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
