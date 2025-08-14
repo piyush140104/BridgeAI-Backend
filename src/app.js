@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://bridge-ai-frontend-tan.vercel.app/",
+    origin: "https://bridge-ai-frontend-tan.vercel.app",
     credentials: true,
   })
 );
