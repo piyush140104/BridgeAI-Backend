@@ -3,7 +3,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 import session from "express-session";
 
-
+require('dotenv').config();
 const app = express();
 
 const allowedOrigins = [
