@@ -62,7 +62,8 @@
 // export { processQuery };
 
 
-
+import dotenv from 'dotenv';
+dotenv.config();
 import { ChatGroq } from "@langchain/groq";
 import {
   ChatPromptTemplate,
